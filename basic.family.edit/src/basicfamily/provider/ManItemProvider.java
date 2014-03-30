@@ -81,6 +81,7 @@ public class ManItemProvider
 			getString("_UI_Man_type") :
 			getString("_UI_Man_type") + " " + label;
 	}
+	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached

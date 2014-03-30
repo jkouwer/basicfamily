@@ -249,6 +249,7 @@ public class PersonItemProvider
 			getString("_UI_Person_type") :
 			getString("_UI_Person_type") + " " + label;
 	}
+	
 
 	/**
 	 * This handles model notifications by calling {@link #updateChildren} to update any cached
